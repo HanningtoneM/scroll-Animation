@@ -29,12 +29,12 @@ h1 {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
-    transform: translate(400%);
+    transform: translate(1000%);
     transition: transform 1s ease;
 }
 
 .box:nth-of-type(even) {
-    transform: translate(-400%);
+    transform: translate(-1000%);
 }
 
 .box.show {
@@ -69,4 +69,15 @@ ul li a {
 
 a:hover {
     color: #b6f523;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    .box {
+        width: 300px;
+        height: 150px;
+    }
 }
