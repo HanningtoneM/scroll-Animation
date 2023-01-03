@@ -9,7 +9,7 @@ body {
     font-size: 16px;
     font-weight: 400; 
     height: 100vh;
-    background-color: #b6f523;
+    background-color: #234583;
     text-transform: uppercase;
     overflow-x: hidden;
 }
@@ -19,8 +19,8 @@ h1 {
 }
 
 .box {
-    background-color: skyblue;
-    color: #fff;
+    background-color: rgb(212, 214, 214);
+    color: rgb(2, 1, 1);
     display: flex;
     align-items: center;
     justify-content: center;
